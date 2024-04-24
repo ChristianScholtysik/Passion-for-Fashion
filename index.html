@@ -42,7 +42,7 @@
   </head>
   <body class="bg-brown">
     <header>
-      <nav class="text-white font-['Inter'] p-6 px-16">
+      <nav class="text-white font-['Inter'] p-6 px-16 border-b-2 border-gray">
         <div class="flex bg-base-100">
           <div class="flex-1">
             <a class="btn text-xl"
@@ -63,8 +63,7 @@
         </div>
       </nav>
       <!-- Hero Section -->
-      <section
-        class="w-4/6 grid grid-cols-3 gap-4 mt-8 px-8 ml-80 overflow-hidden">
+      <section class="w-4/6 grid grid-cols-3 gap-4 mt-8 px-8 ml-80">
         <!-- 1st row -->
 
         <div class="z-10 relative top-80 left-16">
@@ -87,15 +86,16 @@
             <p class="font-['NewYork'] text-4xl text-white">Designer</p>
           </div>
         </div>
-        <div>
+        <div class="overflow-hidden">
           <img
             src="./assets/img/gif/daisy.gif"
-            class="pl-6 relative bottom-24" />
+            class="pl-6 relative bottom-24 top-24" />
         </div>
 
         <!-- 2. row -->
 
-        <div class="flex gap-10 font-['Inter'] mt-32 mb-32 text-white">
+        <div
+          class="flex gap-10 font-['Inter'] mt-32 mb-32 text-white relative top-20">
           <img src="./assets/img/Images/sterne.png" />
           <div>
             <img src="./assets/img/Images/pfeilnachoben.png" />
@@ -109,7 +109,8 @@
           <img src="./assets/img/Images/17.jpeg" />
         </div>
 
-        <div class="text-white flex flex-col justify-center items-center">
+        <div
+          class="text-white flex flex-col justify-center items-center relative top-20">
           <p class="pt-32 pl-20 text-gray">
             Working as a <b>creative and</b> <br />
             <b>outsource</b> your fashion design <br />
@@ -121,102 +122,108 @@
           <div class="overflow">
             <img
               src="./assets/img/Images/kringel.png"
-              class="relative left-96" />
+              class="relative left-96 bottom-32" />
           </div>
         </div>
       </section>
     </header>
     <main>
       <!-- Fashion for passion -->
-      <section
-        class="flex flex-col justify-center items-center border-t-2 border-b-2 mb-64 mt-64 border-gray w-4/6 pb-32">
-        <h2
-          class="text-white font-['NewYork'] flex justify-center text-7xl w-4/6 pt-32 text-center">
-          Fashion for passion <br />
-          & lifestyle
-        </h2>
-        <p class="text-center mt-16 text-gray w-2/6">
-          We formulate intentionally crafted supplements for thoughtful people
-          like <br />
-          you – using only the highest quality ingredients at effective doses.
-          <br />
-          Empowering you to take control of your wellness, look and <br />
-          feel great, and live a life brimming with energy.
-        </p>
-
-        <button class="rounded-full border-2 p-8 mt-8 text-gray">
-          Check My Works
-        </button>
-      </section>
-      <!-- Selected Works -->
-      <section class="w-4/6">
-        <h2 class="text-white font-['NewYork'] text-7xl">
-          Selected <br />
-          works
-        </h2>
-
-        <div class="text-gray flex justify-between items-center mb-24">
-          <p class="ml-16">________________________</p>
-          <p class="mr-64">
-            Creative work of natural source from, We select only those <br />
-            modern works also my planet your products.
+      <div class="flex justify-center">
+        <section
+          class="flex flex-col items-center border-t-2 border-b-2 mb-64 mt-64 border-gray w-4/6 pb-32">
+          <h2
+            class="text-white font-['NewYork'] flex justify-center text-7xl w-4/6 pt-32 text-center">
+            Fashion for passion <br />
+            & lifestyle
+          </h2>
+          <p class="text-center mt-16 text-gray w-2/6">
+            We formulate intentionally crafted supplements for thoughtful people
+            like <br />
+            you – using only the highest quality ingredients at effective doses.
+            <br />
+            Empowering you to take control of your wellness, look and <br />
+            feel great, and live a life brimming with energy.
           </p>
-          <button class="rounded-full p-8 text-gray">View All Works</button>
-        </div>
-      </section>
 
+          <button class="rounded-full border-2 p-8 mt-8 text-gray">
+            Check My Works
+          </button>
+        </section>
+      </div>
+      <!-- Selected Works -->
+      <div class="flex justify-center">
+        <section class="w-4/6">
+          <h2 class="text-white font-['NewYork'] text-7xl">
+            Selected <br />
+            works
+          </h2>
+
+          <div class="text-gray flex justify-between items-center mb-24">
+            <p class="ml-16">________________________</p>
+            <p class="mr-64">
+              Creative work of natural source from, We select only those <br />
+              modern works also my planet your products.
+            </p>
+            <button class="rounded-full p-8 text-gray">View All Works</button>
+          </div>
+        </section>
+      </div>
       <!-- Images -->
-      <section class="w-4/6 h-screen flex gap-20">
-        <div
-          class="h-6/6 w-3/6 flex group bg-[url('./assets/img/Images/1.jpeg')] bg-auto bg-no-repeat bg-center">
-          <div class="invisible group-hover:visible flex flex-col p-20">
-            <img src="./assets/img/Images/pfeilnachoben.png" class="w-6" />
-            <span class="text-white">DEVELOPMENT </span>
-            <span class="text-white text-7xl font-['NewYork']"
-              >Stephanie <br />
-              Brückler</span
-            >
+      <div class="flex justify-center">
+        <section class="w-4/6 h-screen flex gap-20">
+          <div
+            class="h-6/6 w-3/6 flex group bg-[url('./assets/img/Images/1.jpeg')] bg-auto bg-no-repeat bg-center">
+            <div class="invisible group-hover:visible flex flex-col p-20">
+              <img src="./assets/img/Images/pfeilnachoben.png" class="w-6" />
+              <span class="text-white">DEVELOPMENT </span>
+              <span class="text-white text-7xl font-['NewYork']"
+                >Stephanie <br />
+                Brückler</span
+              >
+            </div>
           </div>
-        </div>
-        <div
-          class="h-3/6 w-2/6 gap-20 group bg-[url('./assets/img/Images/2.jpeg')] bg-auto bg-no-repeat bg-center relative top-96">
-          <div class="invisible group-hover:visible flex flex-col p-20">
-            <img src="./assets/img/Images/pfeilnachoben.png" class="w-6" />
-            <span class="text-white">CREATIVE</span>
-            <span class="text-white text-7xl font-['NewYork']"
-              >Shelby <br />
-              Hypol</span
-            >
+          <div
+            class="h-3/6 w-2/6 gap-20 group bg-[url('./assets/img/Images/2.jpeg')] bg-auto bg-no-repeat bg-center relative top-96">
+            <div class="invisible group-hover:visible flex flex-col p-20">
+              <img src="./assets/img/Images/pfeilnachoben.png" class="w-6" />
+              <span class="text-white">CREATIVE</span>
+              <span class="text-white text-7xl font-['NewYork']"
+                >Shelby <br />
+                Hypol</span
+              >
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <!-- Images 2nd row -->
-
-      <section class="w-4/6 h-screen flex gap-20 mt-32">
-        <div
-          class="h-3/6 w-2/6 gap-20 group bg-[url('./assets/img/Images/4.jpeg')] bg-auto bg-no-repeat bg-center relative top-96">
-          <div class="invisible group-hover:visible flex flex-col p-20">
-            <img src="./assets/img/Images/pfeilnachoben.png" class="w-6" />
-            <span class="text-white">WEBDESIGN</span>
-            <span class="text-white text-7xl font-['NewYork']"
-              >Visual <br />
-              identity</span
-            >
+      <div class="flex justify-center mb-64">
+        <section class="w-4/6 h-screen flex gap-20 mt-32">
+          <div
+            class="h-3/6 w-2/6 gap-20 group bg-[url('./assets/img/Images/4.jpeg')] bg-auto bg-no-repeat bg-center relative top-96">
+            <div class="invisible group-hover:visible flex flex-col p-20">
+              <img src="./assets/img/Images/pfeilnachoben.png" class="w-6" />
+              <span class="text-white">WEBDESIGN</span>
+              <span class="text-white text-7xl font-['NewYork']"
+                >Visual <br />
+                identity</span
+              >
+            </div>
           </div>
-        </div>
 
-        <div
-          class="h-6/6 w-3/6 flex group bg-[url('./assets/img/Images/5.jpeg')] bg-auto bg-no-repeat bg-center">
-          <div class="invisible group-hover:visible flex flex-col p-20">
-            <img src="./assets/img/Images/pfeilnachoben.png" class="w-6" />
-            <span class="text-white">BRANDING</span>
-            <span class="text-white text-7xl font-['NewYork']"
-              >Etienne <br />
-              Godiard</span
-            >
+          <div
+            class="h-6/6 w-3/6 flex group bg-[url('./assets/img/Images/5.jpeg')] bg-auto bg-no-repeat bg-center">
+            <div class="invisible group-hover:visible flex flex-col p-20">
+              <img src="./assets/img/Images/pfeilnachoben.png" class="w-6" />
+              <span class="text-white">BRANDING</span>
+              <span class="text-white text-7xl font-['NewYork']"
+                >Etienne <br />
+                Godiard</span
+              >
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <section class="myBlogs">
         <h2>My Blogs</h2>
         <div class="infoBlogs">
