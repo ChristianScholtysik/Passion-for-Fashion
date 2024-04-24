@@ -6,6 +6,59 @@
     font-family: Inter-Regular;
     src: url(../fonts/Inter/static/Inter-Regular.ttf);
 }
+@font-face {
+    font-family: NewYork;
+    src: url(../fonts/NewYork/NewYork\ PERSONAL\ USE.otf);
+}
+
+
+
+
+.kontakt {
+    background-color: #272422;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.kontakt p {
+    width: 70vw;
+    border-bottom: 0.1px solid #999999;
+    font-size: 15px;
+    font-family: Inter-Medium;
+    padding: 0.5%;
+    margin: 3%;
+}
+
+
+
+.letsWork {
+    background-color: #272422;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1px solid #999999;
+    color: white;
+}
+.letsWork h2 {
+    font-family: NewYork;
+    font-size: 4rem;
+    width: 37vw;
+    padding: 2% 0;
+
+}
+.letsWork button {
+    border: 0.1px solid #999999;
+    border-radius: 30px;
+    width: 9vw;
+    padding: 1% 2%;
+    font-size: 13px;
+    font-family: Inter-Regular;
+    margin-bottom: 5%;
+    margin-right: 25%;
+}
+
+/* footer */
 
 footer {
     background-color: #272422;
@@ -57,3 +110,4 @@ footer button {
     font-size: 13px;
     font-family: Inter-Regular;
 }
+
