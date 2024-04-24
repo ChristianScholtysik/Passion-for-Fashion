@@ -1,240 +1,236 @@
 @font-face {
-    font-family: Inter-Medium;
-    src: url(../fonts/Inter/static/Inter-Medium.ttf);
+  font-family: Inter-Medium;
+  src: url(../fonts/Inter/static/Inter-Medium.ttf);
 }
 @font-face {
-    font-family: Inter-Regular;
-    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+  font-family: Inter-Regular;
+  src: url(../fonts/Inter/static/Inter-Regular.ttf);
 }
 @font-face {
-    font-family: NewYork;
-    src: url(../fonts/NewYork/NewYork\ PERSONAL\ USE.otf);
+  font-family: NewYork;
+  src: url(../fonts/NewYork/NewYork\ PERSONAL\ USE.otf);
 }
-
 
 /* section myBlogs */
 
 .myBlogs {
-    background-color: #272422;
-    color: white;
-    padding: 5% 0;
+  background-color: #272422;
+  color: white;
+  padding: 5% 0;
 }
-.myBlogs h2{
-    font-family: NewYork;
-    font-size: 4rem;
-    width: 50vw;
-    padding: 1% 0;
-    margin-left: 15%;
+.myBlogs h2 {
+  font-family: NewYork;
+  font-size: 4rem;
+  width: 50vw;
+  padding: 1% 0;
+  margin-left: 15%;
 }
 
 .infoBlogs {
-    display: flex;
-    align-items: start;
-    width: 100vw;
-    margin-left: 15%;
-    padding: 3% 0;
+  display: flex;
+  align-items: start;
+  width: 100vw;
+  margin-left: 15%;
+  padding: 3% 0;
 }
 .infoBlogs img {
-    width: 14vw;
-    padding: 1% 1.5%;
-    margin-left: 3%;
+  width: 14vw;
+  padding: 1% 1.5%;
+  margin-left: 3%;
 }
 
 .infoBlogs p {
-    width: 42vw;
-    font-size: 15px;
-    font-family: Inter-Regular;
-    color: #999999;
+  width: 42vw;
+  font-size: 15px;
+  font-family: Inter-Regular;
+  color: #999999;
 }
 
 .infoBlogs button {
-    border: 0.1px solid #999999;
-    border-radius: 30px;
-    width: 12vw;
-    padding: 1% 0;
-    font-size: 13px;
-    font-family: Inter-Regular;
-    margin-left: 5%;
+  border: 0.1px solid #999999;
+  border-radius: 30px;
+  width: 12vw;
+  padding: 1% 0;
+  font-size: 13px;
+  font-family: Inter-Regular;
+  margin-left: 5%;
 }
-
 
 /* section dreiMädels */
 
 .dreiMädels {
-    /* background-image: url(../img/Images/23.jpeg);
+  /* background-image: url(../img/Images/23.jpeg);
     background-repeat: no-repeat;
     background-size: cover; */
-    height: 35em;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    position: relative;
+  height: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  position: relative;
 }
 
 .dreiMädels img {
-    width: 100vw;
-    height: 100%;
-    /* background-repeat: no-repeat;
+  width: 100vw;
+  height: 100%;
+  /* background-repeat: no-repeat;
     background-size: contain;
     background-position: center; */
-    opacity: 0.5;
-    object-fit: cover;
-    /* z-index: 1; */
+  opacity: 0.5;
+  object-fit: cover;
+  /* z-index: 1; */
 }
 
 .imgWrap {
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 30px 30px;
-    margin-right: 6rem;
-    border-top: 1px solid white;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 30px;
+  margin-right: 6rem;
+  border-top: 1px solid white;
 }
 .dreiMädels h3 {
-    font-size: 2.5rem;
-    font-family: NewYork;
-    color: white;
-    width: 10vw;
-    text-align: end;
-    margin: 2% 2%;
-    position: relative;
-    top: 20px;
+  font-size: 2.5rem;
+  font-family: NewYork;
+  color: white;
+  width: 10vw;
+  text-align: end;
+  margin: 2% 2%;
+  position: relative;
+  top: 20px;
 }
 .dreiMädels p {
-    font-family: Inter-Regular;
-    color: white;
-    width: 19vw;
-    margin: 3% 5% 4% 0;
-
+  font-family: Inter-Regular;
+  color: white;
+  width: 19vw;
+  margin: 3% 5% 4% 0;
 }
-
 
 /* section Nominated fashion */
 
 .nominatedFashion {
-    background-color: #272422;
-    color: white;
-    padding: 5% 0;
+  background-color: #272422;
+  color: white;
+  padding: 5% 0;
 }
 .nominatedFashion h2 {
-    font-family: NewYork;
-    font-size: 4rem;
-    width: 50vw;
-    padding: 2% 0;
-    margin-left: 15%;
+  font-family: NewYork;
+  font-size: 4rem;
+  width: 50vw;
+  padding: 2% 0;
+  margin-left: 15%;
 }
 .nominatedFashion .passionateAward {
-    display: flex;
-    padding: 0% 12%;
-    justify-content: space-between;
-    width: 80vw;
-    margin-left: 15%;
+  display: flex;
+  padding: 0% 12%;
+  justify-content: space-between;
+  width: 80vw;
+  margin-left: 15%;
 }
 .nominatedFashion .passionateAward p:first-child {
-    width: 31vw;
-    font-size: 1rem;
-    font-family: Inter-Regular;
-    color: #999999;
+  width: 31vw;
+  font-size: 1rem;
+  font-family: Inter-Regular;
+  color: #999999;
 }
 
 /* section Contact */
 
 .kontakt {
-    background-color: #272422;
-    color: white;
-    display: flex;
-    justify-content: center;
+  background-color: #272422;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 .kontakt p {
-    width: 70vw;
-    border-bottom: 0.1px solid #999999;
-    font-size: 15px;
-    font-family: Inter-Medium;
-    padding: 0.5%;
-    margin: 3%;
+  width: 70vw;
+  border-bottom: 0.1px solid #999999;
+  font-size: 15px;
+  font-family: Inter-Medium;
+  padding: 0.5%;
+  margin: 3%;
 }
 
 /* section let's Work */
 
 .letsWork {
-    background-color: #272422;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 0.1px solid #999999;
-    color: white;
+  background-color: #272422;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.1px solid #999999;
+  color: white;
 }
 .letsWork h2 {
-    font-family: NewYork;
-    font-size: 4rem;
-    width: 37vw;
-    padding: 2% 0;
+  font-family: NewYork;
+  font-size: 4rem;
+  width: 37vw;
+  padding: 2% 0;
 }
 .letsWork button {
-    border: 0.1px solid #999999;
-    border-radius: 30px;
-    width: 9vw;
-    padding: 1% 2%;
-    font-size: 13px;
-    font-family: Inter-Regular;
-    margin-bottom: 5%;
-    margin-right: 25%;
+  border: 0.1px solid #999999;
+  border-radius: 30px;
+  width: 9vw;
+  padding: 1% 2%;
+  font-size: 13px;
+  font-family: Inter-Regular;
+  margin-bottom: 5%;
+  margin-right: 25%;
 }
 
 /* footer */
 
 footer {
-    background-color: #272422;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 2%;
-    font-size: 16px;
+  background-color: #272422;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 2%;
+  font-size: 16px;
 }
-footer p , .devineLine{
-    font-family: Inter-Medium;
-    padding-bottom: 10%;
+footer p,
+.devineLine {
+  font-family: Inter-Medium;
+  padding-bottom: 10%;
 }
 .logoFooter {
-    width: 8%;
-    height: 8%;
+  width: 8%;
+  height: 8%;
 }
 
 .socials {
-    display: flex;
-    gap: 10%;
+  display: flex;
+  gap: 10%;
 }
 
 footer .webflow {
-    font-family: Inter-Regular;
+  font-family: Inter-Regular;
 }
 footer span {
-    color: #999999;
+  color: #999999;
 }
 
 footer .mailSubmit {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 footer .email {
-    background-color: #272422;
-    border-bottom: 0.25px solid #999999;
-    font-size: 13px;
-    font-family: Inter-Regular;
-    margin-bottom: 15%;
+  background-color: #272422;
+  border-bottom: 0.25px solid #999999;
+  font-size: 13px;
+  font-family: Inter-Regular;
+  margin-bottom: 15%;
 }
 
 footer button {
-    border: 0.25px solid #999999;
-    border-radius: 20px;
-    width: 7vw;
-    padding: 7% 5%;
-    font-size: 13px;
-    font-family: Inter-Regular;
+  border: 0.25px solid #999999;
+  border-radius: 20px;
+  width: 7vw;
+  padding: 7% 5%;
+  font-size: 13px;
+  font-family: Inter-Regular;
 }
-
