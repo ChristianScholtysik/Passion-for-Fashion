@@ -13,18 +13,159 @@
               gray: "#999999",
               gold: "#E8BF96",
             },
+            fontSize: {
+              xxl: "10rem",
+            },
           },
         },
       };
     </script>
+    <style type="text/tailwindcss">
+      @layer base {
+        @font-face {
+          font-family: "Inter";
+          src: url(./assets/fonts/Inter/static/Inter-SemiBold.ttf);
+        }
+        @font-face {
+          font-family: "Euclid";
+          src: url(./assets/fonts/EuclidCircular/Euclid\ Circular\ A\ Medium.ttf);
+        }
+        @font-face {
+          font-family: "NewYork";
+          src: url(./assets/fonts/NewYork/NewYork\ PERSONAL\ USE.otf);
+        }
+      }
+    </style>
 
     <title>Alomy</title>
   </head>
   <body class="bg-brown">
     <header>
-      <nav></nav>
+      <nav class="text-white font-['Inter'] p-6 px-16">
+        <div class="flex bg-base-100">
+          <div class="flex-1">
+            <a class="btn text-xl"
+              ><img src="./assets/img/Images/Logo.png" class="w-24"
+            /></a>
+          </div>
+          <div class="flex">
+            <ul class="menu menu-horizontal px-1 flex gap-20">
+              <li class="hover:text-gold"><a>Home</a></li>
+              <li class="hover:text-gold"><a>About</a></li>
+              <li class="hover:text-gold"><a>Work</a></li>
+              <li class="hover:text-gold"><a>Service</a></li>
+              <li class="hover:text-gold"><a>Blog</a></li>
+              <li class="hover:text-gold"><a>Award</a></li>
+              <li class="hover:text-gold"><a>Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <section
+        class="w-4/6 grid grid-cols-3 gap-4 mt-8 px-8 ml-80 overflow-hidden border-8">
+        <!-- 1st row -->
+
+        <div class="z-10 relative top-80 left-16">
+          <img src="./assets/img/Images/22.jpeg" />
+        </div>
+        <div class="font-['NewYork'] relative top-20">
+          <img src="./assets/img/Images/open lightbox.png" class="w-64 pl-36" />
+          <h2
+            class="font-['NewYork'] text-xxl text-white overflow flex justify-center relative z-50">
+            Unrivaled
+          </h2>
+          <h2
+            class="font-['NewYork'] text-xxl text-white overflow flex justify-center relative z-50 bottom-24">
+            Shally
+          </h2>
+          <div class="flex flex-col items-center relative bottom-24">
+            <p class="font-['NewYork'] text-4xl text-white">
+              A Creative <span class="text-gold">Fashion</span>
+            </p>
+            <p class="font-['NewYork'] text-4xl text-white">Designer</p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./assets/img/gif/daisy.gif"
+            class="pl-6 relative bottom-24" />
+        </div>
+
+        <!-- 2. row -->
+
+        <div class="flex gap-10 font-['Inter'] mt-32 mb-32 text-white">
+          <img src="./assets/img/Images/sterne.png" />
+          <div>
+            <img src="./assets/img/Images/pfeilnachoben.png" />
+            <p>Fashion <br />Week - 2020</p>
+          </div>
+        </div>
+        <div class="relative top-32">
+          <img
+            src="./assets/img/Images/striche.png"
+            class="flex relative right-10" />
+          <img src="./assets/img/Images/17.jpeg" />
+        </div>
+
+        <div class="text-white flex flex-col justify-center items-center">
+          <p class="pt-32 pl-20 text-gray">
+            Working as a <b>creative and</b> <br />
+            <b>outsource</b> your fashion design <br />
+            project and get it quickly <br />
+            done and delivered remotely <br />
+            online
+          </p>
+
+          <div class="overflow">
+            <img
+              src="./assets/img/Images/kringel.png"
+              class="relative left-96" />
+          </div>
+        </div>
+      </section>
     </header>
-    <main></main>
+    <main>
+      <!-- Fashion for passion -->
+      <section
+        class="flex flex-col justify-center items-center border-t-2 border-b-2 mb-64 mt-64 border-gray w-4/6 pb-32">
+        <h2
+          class="text-white font-['NewYork'] flex justify-center text-7xl w-4/6 pt-32 text-center">
+          Fashion for passion <br />
+          & lifestyle
+        </h2>
+        <p class="text-center mt-16 text-gray w-2/6">
+          We formulate intentionally crafted supplements for thoughtful people
+          like <br />
+          you – using only the highest quality ingredients at effective doses.
+          <br />
+          Empowering you to take control of your wellness, look and <br />
+          feel great, and live a life brimming with energy.
+        </p>
+
+        <button class="rounded-full border-2 p-8 mt-8 text-gray">
+          Check My Works
+        </button>
+      </section>
+      <!-- Selected Works -->
+      <section class="w-4/6">
+        <h2 class="text-white font-['NewYork'] text-7xl">
+          Selected <br />
+          works
+        </h2>
+        <div class="text-gray flex justify-between items-center">
+          <p class="ml-16">________________________</p>
+          <p class="mr-64">
+            Creative work of natural source from, We select only those <br />
+            modern works also my planet your products.
+          </p>
+          <button class="rounded-full border-2 p-8 text-gray">
+            View All Works
+          </button>
+        </div>
+        <div class="grid grid-cols-2"></div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
