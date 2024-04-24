@@ -16,21 +16,27 @@
 .myBlogs {
   background-color: #272422;
   color: white;
-  padding: 5% 0;
+  /* padding: 5% 2em; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .myBlogs h2 {
   font-family: NewYork;
   font-size: 4rem;
-  width: 50vw;
+  width: 77vw;
   padding: 1% 0;
-  margin-left: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2%;
 }
 
 .infoBlogs {
   display: flex;
   align-items: start;
   width: 100vw;
-  margin-left: 15%;
+  margin-left: 27%;
   padding: 3% 0;
 }
 .infoBlogs img {
@@ -40,10 +46,12 @@
 }
 
 .infoBlogs p {
-  width: 42vw;
-  font-size: 15px;
+  width: 32vw;
+  font-size: 11px;
   font-family: Inter-Regular;
   color: #999999;
+  margin-left: 2rem;
+  margin-right: 3rem;
 }
 
 .infoBlogs button {
@@ -56,12 +64,59 @@
   margin-left: 5%;
 }
 
+.blogBilderDrei {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  padding: 0 2%;
+  gap: 5vw;
+}
+
+.blogBilderDrei .bild1 img,
+.blogBilderDrei .bild2 img,
+.blogBilderDrei .bild3 img {
+  height: 30vh;
+  margin-bottom: 7%;
+  object-fit: cover;
+}
+
+.blogBilderDrei .bild1 p:first-of-type,
+.blogBilderDrei .bild2 p:first-of-type,
+.blogBilderDrei .bild3 p:first-of-type {
+  font-size: 11px;
+  font-family: Inter-Regular;
+  color: #999999;
+  margin-bottom: 5%;
+}
+.blogBilderDrei .bild1 p:nth-of-type(2),
+.blogBilderDrei .bild2 p:nth-of-type(2),
+.blogBilderDrei .bild3 p:nth-of-type(2) {
+  font-size: 18px;
+  font-family: NewYork;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 5%;
+}
+.blogBilderDrei .bild1 {
+  width: 22vw;
+  height: 50vh;
+}
+.blogBilderDrei .bild2 {
+  width: 22vw;
+  height: 50vh;
+}
+.blogBilderDrei .bild3 {
+  width: 22vw;
+  height: 50vh;
+}
+
 /* section dreiMädels */
 
 .dreiMädels {
   /* background-image: url(../img/Images/23.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
+      background-repeat: no-repeat;
+      background-size: cover; */
   height: 35em;
   display: flex;
   flex-direction: column;
@@ -74,8 +129,8 @@
   width: 100vw;
   height: 100%;
   /* background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; */
+      background-size: contain;
+      background-position: center; */
   opacity: 0.5;
   object-fit: cover;
   /* z-index: 1; */
