@@ -11,8 +11,35 @@
     src: url(../fonts/NewYork/NewYork\ PERSONAL\ USE.otf);
 }
 
+/* section Nominated fashion */
 
+.nominatedFashion {
+    background-color: #272422;
+    color: white;
+    padding-bottom: 5%;
+}
+.nominatedFashion h2 {
+    font-family: NewYork;
+    font-size: 4rem;
+    width: 50vw;
+    padding: 2% 0;
+    margin-left: 15%;
+}
+.nominatedFashion .passionateAward {
+    display: flex;
+    padding: 0% 12%;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 15%;
+}
+.nominatedFashion .passionateAward p:first-child {
+    width: 31vw;
+    font-size: 1rem;
+    font-family: Inter-Regular;
+    color: #999999;
+}
 
+/* section Contact */
 
 .kontakt {
     background-color: #272422;
@@ -29,7 +56,7 @@
     margin: 3%;
 }
 
-
+/* section let's Work */
 
 .letsWork {
     background-color: #272422;
@@ -45,7 +72,6 @@
     font-size: 4rem;
     width: 37vw;
     padding: 2% 0;
-
 }
 .letsWork button {
     border: 0.1px solid #999999;
