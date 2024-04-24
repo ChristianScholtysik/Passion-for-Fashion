@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Inter-Medium;
+    src: url(../fonts/Inter/static/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+footer {
+    background-color: #272422;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 2%;
+    font-size: 16px;
+}
+footer p , .devineLine{
+    font-family: Inter-Medium;
+    padding-bottom: 10%;
+}
+.logoFooter {
+    width: 8%;
+    height: 8%;
+}
+
+.socials {
+    display: flex;
+    gap: 10%;
+}
+
+footer .webflow {
+    font-family: Inter-Regular;
+}
+footer span {
+    color: #999999;
+}
+
+footer .mailSubmit {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .email {
+    background-color: #272422;
+    border-bottom: 0.25px solid #999999;
+    font-size: 13px;
+    font-family: Inter-Regular;
+    margin-bottom: 15%;
+}
+
+footer button {
+    border: 0.25px solid #999999;
+    border-radius: 20px;
+    width: 7vw;
+    padding: 7% 5%;
+    font-size: 13px;
+    font-family: Inter-Regular;
+}
