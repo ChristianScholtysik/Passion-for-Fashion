@@ -11,12 +11,67 @@
     src: url(../fonts/NewYork/NewYork\ PERSONAL\ USE.otf);
 }
 
+
+/* section dreiMädels */
+
+.dreiMädels {
+    /* background-image: url(../img/Images/23.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+
+.dreiMädels img {
+    width: 100vw;
+    height: 100%;
+    /* background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
+    opacity: 0.5;
+    object-fit: cover;
+    /* z-index: 1; */
+}
+
+.imgWrap {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 30px;
+    margin-right: 6rem;
+    border-top: 1px solid white;
+}
+.dreiMädels h3 {
+    font-size: 2.5rem;
+    font-family: NewYork;
+    color: white;
+    width: 10vw;
+    text-align: end;
+    margin: 2% 2%;
+    position: relative;
+    top: 20px;
+}
+.dreiMädels p {
+    font-family: Inter-Regular;
+    color: white;
+    width: 19vw;
+    margin: 3% 5% 4% 0;
+
+}
+
+
 /* section Nominated fashion */
 
 .nominatedFashion {
     background-color: #272422;
     color: white;
-    padding-bottom: 5%;
+    padding: 5% 0;
 }
 .nominatedFashion h2 {
     font-family: NewYork;
