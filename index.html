@@ -51,13 +51,13 @@
           </div>
           <div class="flex">
             <ul class="menu menu-horizontal px-1 flex gap-20">
-              <li class="hover:text-gold"><a>Home</a></li>
-              <li class="hover:text-gold"><a>About</a></li>
-              <li class="hover:text-gold"><a>Work</a></li>
-              <li class="hover:text-gold"><a>Service</a></li>
-              <li class="hover:text-gold"><a>Blog</a></li>
-              <li class="hover:text-gold"><a>Award</a></li>
-              <li class="hover:text-gold"><a>Contact</a></li>
+              <li class="hover:text-gold"><a href="#">Home</a></li>
+              <li class="hover:text-gold"><a href="#about">About</a></li>
+              <li class="hover:text-gold"><a href="#works">Work</a></li>
+              <li class="hover:text-gold"><a href="#footer">Service</a></li>
+              <li class="hover:text-gold"><a href="#blog">Blog</a></li>
+              <li class="hover:text-gold"><a href="#award">Award</a></li>
+              <li class="hover:text-gold"><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -129,7 +129,7 @@
     </header>
     <main>
       <!-- Fashion for passion -->
-      <div class="flex justify-center">
+      <div class="flex justify-center" id="about">
         <section
           class="flex flex-col items-center border-t-2 border-b-2 mb-64 mt-64 border-gray w-4/6 pb-32">
           <h2
@@ -153,7 +153,7 @@
       </div>
       <!-- Selected Works -->
       <div class="flex justify-center">
-        <section class="w-4/6">
+        <section class="w-4/6" id="works">
           <h2 class="text-white font-['NewYork'] text-7xl">
             Selected <br />
             works
@@ -165,7 +165,9 @@
               Creative work of natural source from, We select only those <br />
               modern works also my planet your products.
             </p>
-            <button class="rounded-full p-8 text-gray">View All Works</button>
+            <button class="rounded-full p-8 text-gray border-2">
+              View All Works
+            </button>
           </div>
         </section>
       </div>
@@ -224,7 +226,7 @@
           </div>
         </section>
       </div>
-      <section class="myBlogs">
+      <section class="myBlogs" id="blog">
         <h2>My Blogs</h2>
         <div class="infoBlogs">
           <img src="./assets/img/Images/div.line.png" alt="divLine" />
@@ -266,7 +268,7 @@
         </div>
       </section>
       <!-- section Nominated fashion -->
-      <section class="nominatedFashion">
+      <section class="nominatedFashion" id="award">
         <h2>Nominated as fashion designer of the year worldwide.</h2>
         <div class="passionateAward">
           <p>
@@ -292,11 +294,13 @@
         <button>Let's Talk</button>
       </section>
     </main>
-    <footer>
-      <img
-        class="logoFooter"
-        src="./assets/img/Images/6.png"
-        alt="logoFooter" />
+    <footer id="footer">
+      <a href="#"
+        ><img
+          class="logoFooter"
+          src="./assets/img/Images/6.png"
+          alt="logoFooter"
+      /></a>
       <div>
         <p>Main Page</p>
         <p>Licensing</p>
